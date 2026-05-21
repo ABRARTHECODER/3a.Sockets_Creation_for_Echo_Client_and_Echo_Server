@@ -22,7 +22,8 @@ while True:
     reply = s.recv(1024).decode()
     print("Server >", reply)
 s.close()
-
+```
+```
 Server:
 import socket
 s = socket.socket()
